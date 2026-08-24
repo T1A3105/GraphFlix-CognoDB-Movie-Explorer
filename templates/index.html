@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GraphFlix — CognoDB Explorer</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div><span class="brand">GraphFlix</span><span class="tag">CognoDB Graph Explorer</span></div>
+    <div id="status" class="status">Checking database…</div>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">GRAPH-POWERED DISCOVERY</p>
+        <h1>Find movies through their connections.</h1>
+        <p class="lead">Explore actors, genres and multi-hop relationships using a graph database rather than a collection of disconnected tables.</p>
+      </div>
+      <div class="searchbox">
+        <input id="search" placeholder="Search a movie…" autocomplete="off">
+        <button onclick="searchMovies()">Search</button>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="panel mainpanel">
+        <div class="panelhead"><h2>Movie results</h2><span id="resultCount"></span></div>
+        <div id="results" class="cards"><div class="empty">Search for a movie to begin.</div></div>
+      </div>
+      <aside class="panel sidepanel">
+        <h2>Graph insights</h2>
+        <p class="muted">Select a movie to inspect its neighborhood.</p>
+        <div id="details" class="details"><div class="empty">No movie selected.</div></div>
+      </aside>
+    </section>
+
+    <section class="panel insightpanel">
+      <div class="panelhead"><div><h2>Popular genres</h2><p class="muted">Aggregated directly from the graph.</p></div></div>
+      <div id="genres" class="genrelist"></div>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

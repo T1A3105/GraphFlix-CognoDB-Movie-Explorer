@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: graphflix-cognodb
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app.main:app
+    envVars:
+      - key: COGNODB_URI
+        sync: false
+      - key: COGNODB_USER
+        value: cognodb
+      - key: COGNODB_PASSWORD
+        sync: false
