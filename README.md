@@ -368,6 +368,7 @@ Tom Hardy
 
 Directors
 Christopher Nolan
+
 #⭐ 11.3 Graph-Based Recommendations
 
 GraphFlix recommends movies based on shared graph connections.
@@ -574,6 +575,12 @@ render.yaml
 The application uses:
 
 Gunicorn
+
+#Screenshots output
+
+<img width="1920" height="1080" alt="Screenshot_1" src="https://github.com/user-attachments/assets/507de87c-3325-4e8b-a4ab-ce42c2432a90" />
+<img width="1920" height="1080" alt="Screenshot_2_output" src="https://github.com/user-attachments/assets/c9618b9a-b70d-4ba4-8d8d-a48a4054e73e" />
+
 
 as the production WSGI server.
 
