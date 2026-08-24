@@ -576,11 +576,15 @@ The application uses:
 
 Gunicorn
 
-#Screenshots output
+# 📸 Screenshots
 
-<img width="1920" height="1080" alt="Screenshot_1" src="https://github.com/user-attachments/assets/507de87c-3325-4e8b-a4ab-ce42c2432a90" />
-<img width="1920" height="1080" alt="Screenshot_2_output" src="https://github.com/user-attachments/assets/c9618b9a-b70d-4ba4-8d8d-a48a4054e73e" />
+## GraphFlix Application
 
+![GraphFlix Application](https://github.com/user-attachments/assets/507de87c-3325-4e8b-a4ab-ce42c2432a90)
+
+## Inception — Graph Insights
+
+![Inception Graph Insights](https://github.com/user-attachments/assets/c9618b9a-b70d-4ba4-8d8d-a48a4054e73e)
 
 as the production WSGI server.
 
